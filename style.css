@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("./Assets/KornerDeliNF.ttf") format("truetype");
+}
+
+body {
+  font-family: "CustomFont", Arial, sans-serif;
+  background-image: url("./Assets/BACKGROUNDbakery.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#cupcakeBtn {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#cupcakeBtn:hover {
+  transform: scale(1.1);
+}
+
+#cupcakeBtn:active {
+  transform: scale(0.9);
+}
